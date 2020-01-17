@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  /*background-color: yellow;*/ /*not working*/
+  background-color: yellow;
 }
 .topbar {
   background-color: black;
@@ -105,7 +105,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #ffd041;
+background-color: yellow;
 font-family: 'Roboto', sans-serif;
 }
 
@@ -148,76 +148,4 @@ color: #000;
 .list li a:hover {
   background-color: #555;
   color: white;
-}
-
-.team-card {
-  width: 170px;
-  background-color: #f1f1f1;
-}
-
-.team-card h4 {
-  text-align: center;
-  color: black;
-  padding-top: 10px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-}
-
-.team-card img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.team-card ul {
-  list-style: none;
-}
-
-.shirt-card {
-  width: 500px;
-  text-align: center;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-.shirt-card img {
-  width: 500px;
-}
-
-.rainbow-text {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.login-form {
-  font-family: 'Roboto', sans-serif;
-}
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-.page h2 {
-  text-align: center;
-}
-
-.news-post {
-  border-style: solid;
-  padding-left: 35px;
-  border-width: thin;
 }
